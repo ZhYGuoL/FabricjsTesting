@@ -1,4 +1,4 @@
-var canvas = new fabric.Canvas('c');
+var canvas = new fabric.Canvas('canvas');
 
 // create a rectangle object
 var rect = new fabric.Rect({
