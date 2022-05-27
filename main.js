@@ -1,4 +1,4 @@
-var canvas = new fabric.Canvas('canvas');
+var canvas = new fabric.Canvas('canvas', {width: window.innerWidth, height: window.innerHeight});
 
 // create a rectangle object
 var rect = new fabric.Rect({
